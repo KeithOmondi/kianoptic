@@ -303,10 +303,10 @@ const Header = ({ activeHeading }) => {
               </div>
 
               <Navbar active={activeHeading} />
-              <div className={`${styles.button} ml-4 !rounded-[4px]`}>
-                <Link to="/shop-create">
+              <div >
+                <Link to="">
                   <h1 className="text-[#fff] flex items-center">
-                    Become Seller <IoIosArrowForward className="ml-1" />
+                    <a href="mailto:kstaroptics@gmail.com">kstaroptics@gmail.com</a> <IoIosArrowForward className="ml-1" />
                   </h1>
                 </Link>
               </div>
