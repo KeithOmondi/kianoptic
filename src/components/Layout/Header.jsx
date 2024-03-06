@@ -305,7 +305,7 @@ const Header = ({ activeHeading }) => {
               <Navbar active={activeHeading} />
               <div >
                 <Link to="">
-                  <h1 className="text-[#fff] flex items-center">
+                  <h1 className="text-[#0000FF] flex items-center">
                     <a href="mailto:kstaroptics@gmail.com">kstaroptics@gmail.com</a> <IoIosArrowForward className="ml-1" />
                   </h1>
                 </Link>
